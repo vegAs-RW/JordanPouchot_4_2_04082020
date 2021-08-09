@@ -7683,7 +7683,6 @@ button.close {
     text-indent: -999px;
     cursor: pointer;
     /* probleme valeur de background-color*/
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

@@ -7,7 +7,7 @@
 		content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="robots" content="index, follow">
-	<!-- Open Graph / Facebook -->
+	
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://vegas-rw.github.io/JordanPouchot_4_2_04082020/">
 	<meta property="og:title" content="La Chouette Agence, Web design">
@@ -15,7 +15,6 @@
 	<meta property="og:image" content="img/logo.png">
 	<meta property="og:image:alt" content="A description of what is in the image (not a caption)">
 
-	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://vegas-rw.github.io/JordanPouchot_4_2_04082020/">
 	<meta property="twitter:title" content="La Chouette Agence, Web design">
@@ -36,27 +35,21 @@
 	<script src="./js/jquery.touchSwipe.js"></script>
 	<script src="./js/gmaps.js"></script>
 
-	<title>La Chouette Agence, Web design</title>
-
-
-	<!-- Analytics -->
-
-	<!-- Analytics END -->
+	<title>La Chouette Agence, Web design, Paris</title>
 
 </head>
 
 <body>
-	<!-- Principal conteneur -->
 	<div class="page-container">
-
-
 		<header class="bloc bgc-white l-bloc " id="bloc-0">
-			<!--suppression d'une div et ajout de la balise sementique <header>-->
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
 								alt="logo de l'entreprise de la chouette agence" height="40" /></a>
+								<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+									<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+								</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
@@ -64,7 +57,7 @@
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
-								<a href="page2.html">page2 &gt;</a>
+								<a href="page2.html">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -72,16 +65,14 @@
 			</div>
 		</header>
 		<main>
-			<!--Ajout de la balise sementique <main> pour englober le contenu de la page-->
 			<section>
-				<!--Ajout de balise sementique <section> pour un meilleur decoupage du html-->
 				<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 					id="bloc-1-hero">
 					<div class="container bloc-lg">
 						<div class="row tight-width-whitespace">
 							<div class="col-sm-12">
 								<img src="img/logo.png" class="center-block image-resize-mode" width="100"
-									alt="Logo de La chouette agence, agence web paris" />
+									alt="Logo de La chouette agence, agence web Lyon" />
 								<h1 class="text-center hero-bloc-text tc-white">
 									La chouette agence.
 								</h1>
@@ -97,14 +88,12 @@
 			</section>
 
 			<section>
-				<!--Ajout balise sementique <section> pour un meilleur decoupage html -->
 				<div class="bloc bgc-white l-bloc" id="bloc-2-services">
 					<div class="container bloc-md">
 						<div class="row">
 							<div class="col-sm-12 text-center">
 								<img alt="Description de l'agence de web design la chouette agence"
 									src="img/title.png" />
-								<!--Modif des alt= des images pour meilleure accessibilité + mieu vaut mettre des H2 pour la description; mieu pour la sementique et moins lourd a charger -->
 							</div>
 						</div>
 						<div class="row voffset-lg med-width-whitespace">
@@ -150,15 +139,11 @@
 						<div class="row voffset-lg voffset text-center">
 							<img alt="citation d'un pdg d'une entreprise satisfaite par les services de la chouette agence"
 								src="img/citation.png" />
-							<!--Modif des alt= des images pour meilleure accessibilité + mieu vaut mettre la citation dans <figure> et <blockquote> plutot qu'une image -->
 						</div>
 					</div>
 				</div>
 			</section>
-
-
 			<article>
-				<!--Ajout balise sementique <article>-->
 				<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
 					id="bloc-3-what-i-do">
 					<div class="container bloc-lg">
@@ -179,7 +164,6 @@
 									sites
 									beau et bien structurés, qui seront facilement trouvable sur les moteurs de
 									recherche.<br><br>
-									<!--Pas la bonne facon placer le lien, css mieu-->
 									<a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a>
 								</p>
 							</div>
@@ -194,7 +178,6 @@
 						<div class="row">
 							<div class="col-sm-12 text-center">
 								<img alt="Description du travail qu'effectue la chouette agence" src="img/title2.png" />
-								<!-- Mieu vaut mettre un titre (h) plutot qu'une image + modif alt=-->
 							</div>
 						</div>
 						<div class="row tight-width-whitespace portfolio-row">
@@ -204,7 +187,6 @@
 									<img src="img/1.jpg"
 										alt="image de journaux pour la refonte du site web du journal local"
 										class="img-responsive portfolio-thumb" /></a>
-								<!--modif alt=-->
 								<h3 class="mg-md text-center">
 									Refonte d'un site web pour un journal local
 								</h3>
@@ -218,7 +200,6 @@
 									<img src="img/2.jpg"
 										alt="photo d'une photographe pour la création d'un site web pour photographes"
 										class="img-responsive portfolio-thumb" /></a>
-								<!--modif alt=-->
 								<h3 class="mg-md text-center">
 									Création d'un site web pour photographes
 								</h3>
@@ -236,7 +217,6 @@
 									<img src="img/3.bmp"
 										alt="photo de plusieurs objets technologiques pour illustrer la creation d'un site de voyageur"
 										class="img-responsive portfolio-thumb" /></a>
-								<!--image .bmp beaucoup trop lourde, modifier le format + modif alt=-->
 								<h3 class="mg-md text-center">
 									Création d'un site internet pour un voyageur
 								</h3>
@@ -253,7 +233,6 @@
 									<img src="img/4.bmp"
 										alt="image d'un bureau de travail pour illustrer la création d'un site pour une agence de mariage"
 										class="img-responsive portfolio-thumb" /></a>
-								<!--image .bmp beaucoup trop lourde, modifier le format + modif alt=-->
 								<h3 class="mg-md text-center">
 									Conception d'un site pour une agence de mariage
 								</h3>
@@ -267,7 +246,6 @@
 				</div>
 			</aside>
 			<section>
-				<!--Ajout balise <section>-->
 				<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 					<div class="container bloc-lg">
 						<div class="row">
@@ -284,7 +262,7 @@
 			</section>
 		</main>
 
-		<footer> <!--ajout balise <footer>-->
+		<footer>
 			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
 					<div class="row">
@@ -316,18 +294,6 @@
 										<a class="social" href="index.html"><span
 												class="fa fa-instagram icon-md"></span></a>
 									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-4">
-									Partenaires
-									<ul>
-										<li><a href="voiture.com">voiture.com</a></li>
-										<li><a href="pizza.com">pizza.com</a></li>
-										<li><a href="matoiture.com">matoiture.com</a></li>
-										<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-									</ul>
-									<!--suppression de tous les liens inutiles d'annuaires. attention blackhat!-->
 								</div>
 							</div>
 						</div>
